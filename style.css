@@ -34,21 +34,22 @@ body,html
 .nav ul li 
 {
   display: inline-block;
-  padding: 20px;
+  padding: 2%;
  
 }
 
 .nav ul li a {
-  color: #fff;
+  color: #ffe75e;
   text-decoration: none;
   
 
 }
 
-.nav ul li a:hover
-{
-  color: #ffe75e;;
+.me{
+  float: left;
+
 }
+
 
 section
 {
@@ -115,6 +116,36 @@ background: url(./images/cami.png);
   background: hsla(194, 90%, 12%, 0.911);
   margin-left: 10mm;
   box-shadow: 0px 0px 5px 1px rgba(199, 197, 199, 1);
+}
+
+.projectPictures{
+  border: solid 2px #ffe75e;
+  border-radius: 2%;
+  display: flex;
+  width: 80%;
+  margin-left: 5%;
+  margin-top: 5%;
+  padding: 5%;
+  justify-content: space-between;
+}
+
+
+button {
+  width: 10vw;
+  height: 10vh;
+  background-color: #ffe75e;
+  color:black;
+  border-radius: 5px;
+  display: flex;
+  align-self: center;
+  font-family: Roboto, sans-serif;
+  font-size: medium;
+  
+}
+
+.projectPictures > img {
+  width: 25%;
+  
 }
 
 
@@ -271,10 +302,6 @@ color: #ffffff;
   width: 26%;
 }
 
-.me{
-  width: 100%;
-
-}
 
 .aboutMe{
 background-color: #D0D0D0;
@@ -423,7 +450,6 @@ width: 40%;
 
 
 
-
 /*  Container footer place   */
 
 .contact{
@@ -439,6 +465,7 @@ width: 40%;
   font-weight: 600;
   border-radius: 5px;
 }
+
 
 
 /*   footer place    */
@@ -460,6 +487,7 @@ width: 40%;
   color: #ffe75e;;
 
 }
+
 
 
 
