@@ -683,9 +683,9 @@ transition-delay: 0.35s;
     align-self: end;
   }
 
-.contact h2{
+  .contact h2{
 
-font-size: medium;
-}
+  font-size: medium;
+  }
 
 }
