@@ -311,7 +311,7 @@ background-color: #D0D0D0;
 
 .snip1522 .profile-image img {
   border-radius: 5px;
-  max-width: 49vh;
+  width: 22vw;
   vertical-align: top;
 }
 
@@ -424,9 +424,9 @@ width: 50%;
 
 .skillContent{
 
-display: flex;
-flex-direction: row;
-align-items: center
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 
@@ -490,18 +490,18 @@ width: 40%;
 /* snip 1311  */
 
 figure.snip1311 {
-position: relative;
-float: left;
-overflow: hidden;
-max-height: 30%;
-width: 25%;
-color: #ffffff;
-text-align: left;
-background-color: #07090c;
-font-size: 16px;
--webkit-perspective: 50em;
-perspective: 50em;
-border-radius: 10%;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  max-height: 30%;
+  width: 25%;
+  color: #ffffff;
+  text-align: left;
+  background-color: #07090c;
+  font-size: 16px;
+  -webkit-perspective: 50em;
+  perspective: 50em;
+  border-radius: 10%;
 }
 figure.snip1311 * {
 -webkit-box-sizing: border-box;
@@ -510,10 +510,10 @@ box-sizing: border-box;
 transition: all 0.6s ease;
 }
 figure.snip1311 img {
-max-width: 100%;
--webkit-transition-delay: 0.2s;
-transition-delay: 0.2s;
-backface-visibility: hidden;
+  max-width: 100%;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  backface-visibility: hidden;
 }
 figure.snip1311 figcaption {
 position: absolute;
@@ -572,6 +572,13 @@ opacity: 1;
 transition-delay: 0.35s;
 }
 
+.hereMe a img {
+
+  width: 8%;
+  display: inline-flex;
+  padding: 3%;
+
+} 
 
 /*  fin snip 1311 */
 
@@ -609,7 +616,7 @@ transition-delay: 0.35s;
 
 
   .nav
-{
+  {
   background-color: #3b3b3f;
   text-align: end;
   font-family: 'Roboto', sans-serif;
@@ -618,7 +625,7 @@ transition-delay: 0.35s;
   z-index: 999;
   width: 100%;
 
-}
+  }
   
   
   .nav ul li {
@@ -629,8 +636,7 @@ transition-delay: 0.35s;
 
   .snip1522 .profile-image img {
     border-radius: 5px;
-    width: 30vw;
-    vertical-align: top;
+    width: 25vw;
     display: block;
   }
   
@@ -642,6 +648,22 @@ transition-delay: 0.35s;
   }
 
 
+
+    figure.snip1311 {
+      position: relative;
+      overflow: hidden;
+      width: 50%;
+      margin-left: 25%;
+      margin-right: initial;
+      color: #ffffff;
+      text-align: left;
+      background-color: #07090c;
+      font-size: 16px;
+      -webkit-perspective: 50em;
+      perspective: 50em;
+      border-radius: 10%;
+    }
+
   .skills{
     background-color: #3b3b3f;
     width: 80%;
@@ -652,9 +674,7 @@ transition-delay: 0.35s;
   .icons {
     display: inline-block;
     text-align: center;
-    flex-direction: column;
-    align-content: center;
-    width: 30%;
+    width: 25%;
   }
 
   .iconTitle {
@@ -687,5 +707,98 @@ transition-delay: 0.35s;
 
   font-size: medium;
   }
+
+
+}
+@media only screen and (max-width: 990px) and (min-width: 701px) {
+
+  .nav {
+    background-color: #3b3b3f;
+    text-align: end;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.9;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    font-size: small;
+  }
+
+
+  nav ul
+  {
+    list-style: none;
+    margin: 0;
+    text-decoration: none;
+  }
+  
+  .nav ul li 
+  {
+    
+    padding: 2%;
+    
+   
+  }
+  
+  .nav ul li a {
+    color: #ffe75e;
+    text-decoration: none;
+    
+  }
+
+  .me {
+    float: left;
+    color: #ffe75e;
+}
+
+  .snip1522 .profile-image img {
+    border-radius: 5px;
+    max-width: 20vw;
+  }
+  .icons {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+  }
+
+  .icon {
+    width: 15%;
+    color: #fff;
+    display: inline-table;
+    flex: auto;
+    margin: 1%;
+    padding: 3%;
+  }
+
+
+  .mepic {
+    width: 30vw;
+  }
+
+  .projectPictures {
+    border: solid 2px #ffe75e;
+    border-radius: 5%;
+    display: flex;
+    width: 70%;
+    margin: 5% 5% 5% 10%;
+    padding: 5%;
+    justify-content: space-evenly;
+  }
+
+
+  figure.snip1311 {
+    position: relative;
+    overflow: hidden;
+    width: 60%;
+    color: #ffffff;
+    text-align: left;
+    background-color: #07090c;
+    font-size: 12px;
+    -webkit-perspective: 50em;
+    perspective: 50em;
+    border-radius: 10%;
+}
 
 }
