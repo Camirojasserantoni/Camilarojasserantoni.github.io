@@ -1,6 +1,6 @@
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,700;);
-@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
 
 body,html
 {
@@ -295,8 +295,6 @@ color: #ffffff;
 /*  End of about me place  */
 
 
-@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
-
 .snip1522 {
   font-family: Roboto;
   position: relative;
@@ -407,27 +405,34 @@ background-color: #D0D0D0;
 }
 
 .icons{
- 
   display: flex;
+  background: #3b3b3f;
+  border-radius: 5%;
+  margin-left: 4%;
+  padding-top: 1%;
+  margin-top: 10%;
   text-align: center;
-  flex-direction: row;
+  flex-direction: unset;
   flex-wrap: wrap;
   justify-content: center;
-  width: 60%;
+  width: 70%;
+  height: 55vh;
+  border: solid 2px #ffe75e;
 }
 
 .icon{
-
-width: 15%;
-color: #fff;
-display: inline-table;
-flex: none;
-margin:1%;
-padding: 3%;
+  width: 15%;
+  color: #ffe75e;
+  font-weight: 600;
+  display: inline-table;
+  place-self: baseline;
+  margin: 1%;
+  padding: 1%;
+  text-align: center;
 }
 
 
-.icons a img {
+.icons  img {
 width: 50%;
 
 }
@@ -444,29 +449,53 @@ width: 50%;
 .skillContent{
 
   display: flex;
-  flex-direction: row;
-  align-items: center;
+    width: initial;
+    height: 80vh;
+    flex-direction: row;
+    align-items: center;
+    background-image: url(./images/fondotecnologia.png);
+    background-size: cover;
 }
 
 
-.iconTitle{
-  background-color: #3b3b3f;
+  .title{
+
+    background-color: #3b3b3f;
+    color: #ffe75e;
+    border-radius: 5%;
+    display: flex;
+    padding: 5%;
+    padding-bottom: 1%;
+    margin-bottom: 0;
+    justify-content: center;
+    font-weight: 600;
+
+}
+
+
+
+.techBackground{
+  width: 78vw;
+  height: 47vh;
+  margin-left: 2px;
+
+}
+
+
+/*  Container footer place   */
+
+.myWorks{
   color: #ffe75e;
-  display: flex;
-  justify-content: center;
-  padding-top: 2%;
-  font-family: 'Roboto', sans-serif;
+  background-color: #3b3b3f;
+  width: 80%;
+  display: flow-root;
+  text-align: center;
+  margin-bottom: 2%;
+  margin-left: 10%;
   font-weight: 600;
   border-radius: 5px;
 }
 
-.mepic{
-width: 40%;
-}
-
-
-
-/*  Container footer place   */
 
 .contact{
   color: #ffe75e;
@@ -478,6 +507,48 @@ width: 40%;
   margin-left: 10%;
   font-weight: 600;
   border-radius: 5px;
+}
+
+.hereMe{
+  display: flex;
+
+}
+
+.findIcon{
+display: grid;;
+
+
+}
+
+.mepic {
+  width: 50%;
+  display: flex;
+}
+
+.findMe{
+  display: flex;
+    border: solid 2px #ffe75e;
+    border-radius: 5%;
+    margin: 5%;
+
+
+}
+
+.labIcon{
+  width: 10%;
+  border-radius: 5%;
+}
+
+
+.contactIcon{
+  width: 10%;
+  color: #ffe75e;
+  font-weight: 600;
+  display: inline-table;
+  place-self: baseline;
+  margin: 1%;
+  padding: 1%;
+  text-align: center;
 }
 
 
@@ -607,6 +678,7 @@ color: #D0D0D0;
 /* Responsive Design */
 
 @media only screen and (max-width: 700px) and (min-width: 320px) {
+  
   .snip1522 {
     font-family: Roboto;
     position: relative;
@@ -619,7 +691,7 @@ color: #D0D0D0;
     font-size: 14px;
     box-shadow: none !important;
     justify-self: center;
-}
+  }
   
   .snip1522 figcaption:after {
     content: '';
@@ -631,28 +703,41 @@ color: #D0D0D0;
     border-style: solid;
     border-width: 10px 0 10px 10px;
     border-color: transparent transparent transparent #333333;
-}
-  nav ul
-  {
-    list-style: none;
-    margin: 0;
-    text-decoration: none;
   }
-  
-  .nav ul li 
-  {
-    display: inline-block;
-    padding: 2%;
-    
+
+  .initialName {
+    float: left;
+    display: flex;
+    align-items: end;
+    justify-content: right;
+    width: 100%;
+
+  }
+
+  .title{
+  background-color: #3b3b3f;
+  color: #ffe75e;
+  border-radius: 5%;
+  display: flex;
+  padding: 5%;
+  padding-bottom: 1%;
+  margin-bottom: 0;
+  justify-content: center;
+  font-weight: 600;
+  }
+
+  .bird {
+    width: 15%;
+    display: flex;
+    margin: 1% 6% 0 2%;
+  }  
+
+  .nav ul {
+    margin: 0;
+    width: 0;
    
   }
   
-  .nav ul li a {
-    color: #ffe75e;
-    text-decoration: none;
-    
-  
-  }
   
   .me{
     float: left;
@@ -679,11 +764,17 @@ color: #D0D0D0;
     display: none;
   }
 
-  .snip1522 figcaption {
+  .snip1585 img {
+    vertical-align: top;
+    backface-visibility: hidden;
+    height: 50vh;
+  }
 
+  .snip1522 figcaption {
     background-color: #333333;
     color: #fff;
     padding: 25px;
+    text-align: center;
     display: block;
     margin-right: 0;
     border-radius: 5px;
@@ -691,6 +782,12 @@ color: #D0D0D0;
     width: auto;
   }
 
+  .snip1522 h2 {
+    color: #ffe75e;
+    font-weight: 600;
+    display: none;
+
+  }
 
   .snip1522 .profile-image img {
     display: none;
@@ -717,64 +814,76 @@ color: #D0D0D0;
     }
     .skillContent {
       display: flex;
-      flex-direction: column;
       align-items: center;
     }
 
 
-  .skills{
-    background-color: #3b3b3f;
-    width: 80%;
-    margin-left: 10%;
-    margin-bottom: 5%;
-    border-radius: 5px;
-  }
-  .icons {
-    display: inline-block;
-    text-align: center;
-    width: 25%;
-  }
+    .skills{
+      background-color: #3b3b3f;
+      width: 80%;
+      margin-left: 10%;
+      margin-bottom: 5%;
+      border-radius: 5px;
+    }
+  
+      .icons{
+        
+        background: #3b3b3f;
+        border-radius: 5%;
+        margin-left: 4%;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 73vw;
+        height: 70vh;
+        border: solid 2px #ffe75e;
+      }
+    
 
   .iconTitle {
-    background-color: #3b3b3f;
-    color: #ffe75e;
-    display: flex;
-    justify-content: center;
-    padding-top: 5%;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    border-radius: 5px;
-    font-size: larger;
-}
+      background-color: #3b3b3f;
+      color: #ffe75e;
+      display: flex;
+      justify-content: center;
+      padding-top: 5%;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 600;
+      border-radius: 5px;
+      font-size: larger;
+  }
 
   .icon {
-    width: 5%;
-    color: #fff;
-    display: contents;
-    margin: 1%;
-    padding: 3%;
+      width: 24%;
+      color: #ffe75e;
+      font-weight: 400;
+      display: inline-table;
+      place-self: baseline;
+      margin: 2%;
   }
 
   .mepic {
-    width: 50%;
-    display: none;
+      width: 50%;
+      display: none;
+      
+  }
+
+    .contact h2{
+
+    font-size: medium;
+    }
+
+    section {
+      width: 100%;
+      display: inline-grid;
+      margin-bottom: 2%;
     
-  }
-
-  .contact h2{
-
-  font-size: medium;
-  }
-  section {
-    width: 100%;
-    display: inline-grid;
-    margin-bottom: 2%;
-  
-  }
+    }
 
 
 
 }
+
+
 @media only screen and (max-width: 990px) and (min-width: 701px) {
 
   .nav {
