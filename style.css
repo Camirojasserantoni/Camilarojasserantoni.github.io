@@ -11,8 +11,8 @@ body,html
 }
 
 .nav{
-  background-color: #3b3b3f;
   font-family: 'Roboto', sans-serif;
+  background-color: #3b3b3f;
   opacity: 0.7;
   position: fixed;
   z-index: 999;
@@ -58,7 +58,14 @@ body,html
   text-decoration: none;
 }
 
-
+.the_placeText{
+  text-align: unset;
+  margin: 10%;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: rgb(208, 208, 208);
+  font-weight: 500;
+}
 .about-me
 {
   color: #000;
@@ -300,7 +307,6 @@ color: #D0D0D0;
   padding: 1%;
   text-align: center;
 }
-
 
 .icons  img {
 width: 50%;
