@@ -11,8 +11,9 @@ body,html
 }
 
 .nav{
+  background-color: #3b3b3f;
   font-family: 'Roboto', sans-serif;
-  opacity: 0.9;
+  opacity: 0.7;
   position: fixed;
   z-index: 999;
   width: 100%;
@@ -75,9 +76,9 @@ body,html
 .the_placeText{
   text-align: center;
   margin: 4%;
+  margin-top: 0;
   color: rgb(208, 208, 208);
   font-weight: 500;
-
 }
 
 .text_container {
@@ -86,8 +87,6 @@ body,html
   justify-content: center;
   width: 64%;
   left: 50%;
-  margin: 3%;
-  margin-top: 3%;
   margin-left: -40%;
   font-size: xx-large;
 }
@@ -406,10 +405,7 @@ text-align: center;
   padding: 1%;
   text-align: center;
 }
-
 /*   footer place    */
-
-
 .containerFooter
 {
   background:  #3b3b3f;
@@ -677,6 +673,8 @@ section {
     .skillContent {
       display: flex;
       align-items: center;
+      width: 80vw;
+      height: 80vh;
     }
     .skills{
       background-color: #3b3b3f;
@@ -689,13 +687,13 @@ section {
       display: block;
       background: #3b3b3f;
       border-radius: 5%;
-      margin-left: 4%;
-      padding-top: 1%;
+      margin-left: 5%;
+      padding-top: 5%;
       text-align: center;
       flex-wrap: wrap;
       justify-content: center;
       width: 90%;
-      height: 65vh;
+      height: 60vh;
       border: solid 2px #ffe75e;
     }
       .icon {
@@ -893,6 +891,4 @@ section {
     height: 45vh;
     backface-visibility: hidden;
   }
-
 }
-
