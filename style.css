@@ -101,7 +101,6 @@ color: #D0D0D0;
 }
 
 .letter {
-  display: inline-block;
   position: relative;
   float: left;
   transform: translateZ(25px);
