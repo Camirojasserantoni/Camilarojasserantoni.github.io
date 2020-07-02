@@ -303,11 +303,12 @@ body,html
 .icon{
   width: 15%;
   color: #ffe75e;
-  font-weight: 600;
+  font-weight: 400;
   place-self: baseline;
   margin: 1%;
   padding: 1%;
   text-align: center;
+
 }
 
 .icons  img {
@@ -461,7 +462,7 @@ width: 50%;
 .findIcon{
   display: grid;
   text-align: center;
-  margin: 10% 0% 5% 10%;
+  margin: 8% 0% 5% 10%;
   color: rgb(208, 208, 208);
   font-weight: 500;
 }
@@ -478,6 +479,7 @@ width: 50%;
     position: absolute;
     margin-left: 25%;
     font-size: x-large;
+    color: #fff;
 }
 
 .findMe{
@@ -495,8 +497,8 @@ width: 50%;
 
 .box-contact{
   box-shadow: 0 20px 40px rgba(0,0,0,.2);
-  width: 40%;
-  padding: 5%;
+  width: 45%;
+  padding: 3%;
   margin: 5%;
   text-align: center;
   border: 2px #ffe75e;
@@ -632,7 +634,31 @@ section {
 /* Responsive Design */
 
 @media only screen and (max-width: 700px) and (min-width: 320px) {
-  
+
+  .snip1585 a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    display: none;
+  }
+
+  .snip1585 {
+    background-color: #D0D0D0;
+    color: #ffe75e;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    min-width: 230px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+
   .snip1522 {
     font-family: Roboto;
     position: relative;
@@ -678,18 +704,44 @@ section {
     text-decoration: none;
   }
   .title{
-  background-color: #3b3b3f;
-  color: #ffe75e;
-  border-radius: 5%;
-  display: flex;
-  padding: 5%;
-  padding-bottom: 1%;
-  margin-bottom: 0;
-  justify-content: center;
-  font-weight: 600;
-  width: 50%;
+    background-color: #3b3b3f;
+    color: #ffe75e;
+    border-radius: 5%;
+    display: flex;
+    padding: 5%;
+    padding-bottom: 1%;
+    margin-bottom: 0;
+    justify-content: center;
+    font-weight: 600;
+    width: 50%;
+    margin-top: 2%;
   }
 
+  .contact {
+    color: #ffe75e;
+    background-color: #3b3b3f;
+    width: 100%;
+    margin: 0;
+    display: table;
+    text-align: center;
+    margin-bottom: 2%;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-bottom: 2%;
+  }
+
+  .about-me {
+    color: #000;
+    background-color: #3b3b3f;
+    width: 100%;
+    display: flow-root;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 2%;
+
+    font-weight: 600;
+    border-radius: 5px;
+  }
   .bird {
     width: 15%;
     display: flex;
@@ -715,17 +767,16 @@ section {
   position: relative;
   display: flex;
   justify-content: center;
-  width: 75%;
+  width: 100%;
   left: 42%;
-  margin: 3%;
-  margin-top: 3%;
+  margin: 6%;
+  margin-top: 5%;
   margin-left: -40%;
   font-size: larger;
  }
  .the_placeText {
   text-align: center;
   margin: 10%;
-  color: #d0d0d0;
   font-weight: 300;
  }
  .icons img {
@@ -781,28 +832,33 @@ section {
     }
     .skillContent {
       display: flex;
-      align-items: center;
-      width: 80vw;
-      height: 80vh;
+    width: 100%;
+    height: 70vh;
+    padding-bottom: 5%;
+    padding: -9%;
     }
     .skills{
-      background-color: #3b3b3f;
-      width: 80%;
-      margin-left: 10%;
-      margin-bottom: 5%;
-      border-radius: 5px;
+    background-color: #3b3b3f;
+    width: 100%;
+    margin: 0;
+    color: #ffe75e;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-bottom: 2%;
+
+
     }
     .icons{
-      display: block;
+      display: list-item;
+      margin-right: 5%;
       background: #3b3b3f;
       border-radius: 5%;
-      margin-left: 5%;
       padding-top: 5%;
       text-align: center;
       flex-wrap: wrap;
       justify-content: center;
-      width: 90%;
-      height: 60vh;
+      width: 100%;
+      height: 65vh;
       border: solid 2px #ffe75e;
     }
       .icon {
@@ -860,34 +916,34 @@ section {
       text-transform: uppercase;
     }
     .myWorks {
-      color: #ffe75e;
+
       background-color: #3b3b3f;
-      width: 80%;
+      width: 100%;
       display: flow-root;
       text-align: center;
-      margin-bottom: 2%;
-      margin-left: 10%;
+      margin: 0;
+      color: #ffe75e;
       font-weight: 600;
       border-radius: 5px;
+    }
+
+
+    .box-contact {
+      box-shadow: 0 20px 40px rgba(0,0,0,.2);
+      width: 40%;
+      place-self: center;
+      padding: 5%;
+      margin: 5%;
+      text-align: -webkit-match-parent;
+      border: 2px #ffe75e;
     }
 
     .find-MeHere {
       display: flex;
       position: absolute;
       margin-left: 10%;
-      font-size: small;
-    }
-
-    .box-contact {
-        box-shadow: 0 20px 40px rgba(0,0,0,.2);
-        width: 40%;
-        display: grid;
-        place-self: center;
-        padding: 5%;
-        margin: 5%;
-        text-align: center;
-        border: 2px #ffe75e;
-
+      font-size: large;
+    
     }
 }
 
@@ -948,19 +1004,21 @@ section {
     display: inline-table;
     margin: 1%;
     color: #ffe75e;
+    font-weight: 400;
   }
   .snip1585:hover > img, .snip1585.hover > img {
     opacity: 0.7;
     height: 45vh; 
   }
     .myWorks {
-      color: #ffe75e;
+      color: #000;
       background-color: #3b3b3f;
-      width: 80%;
+      width: 96%;
       display: flow-root;
       text-align: center;
       margin-bottom: 2%;
-      margin-left: 10%;
+      margin-top: 0%;
+      margin-left: 2%;
       font-weight: 600;
       border-radius: 5px;
   }
@@ -1007,13 +1065,22 @@ section {
     display: grid;
     width: 100%;
     height: 51%;
-    margin-bottom: 7%;
+    margin-bottom: 2%;
     flex-direction: row-reverse;
     align-items: center;
     background-image: url(./images/fondotecnologia.png);
     background-size: cover;
   }
 
+  .skills {
+    background-color: #3b3b3f;
+    width: 96%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    border-radius: 5px;
+
+  }  
 
   .snip1585 img {
     vertical-align: top;
@@ -1023,9 +1090,48 @@ section {
   }
 
  .find-MeHere {
-    display: flex;
-    position: absolute;
-    margin-left: 25%;
-    font-size: x-large;
+  display: flex;
+  position: absolute;
+  margin-left: 8%;
+  font-size: x-large;
 }
+
+.box-contact {
+  box-shadow: 0 20px 40px rgba(0,0,0,.2);
+  width: 56%;
+  padding: 5%;
+  margin: 5%;
+  text-align: center;
+  border: 2px #ffe75e;
+}
+
+
+.about-me {
+  color: #000;
+  background-color: #3b3b3f;
+  width: 96%;
+  display: flow-root;
+  text-align: center;
+  margin-bottom: 2%;
+  margin-top: 0%;
+  margin-left: 2%;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.contact {
+  color: #ffe75e;
+  background-color: #3b3b3f;
+  width: 96%;
+  display: flow-root;
+  text-align: center;
+  margin-bottom: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+
+
 }
