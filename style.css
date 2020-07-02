@@ -475,9 +475,10 @@ width: 50%;
 }
 
 .find-MeHere{
-  display: flex;
+   display: flex;
     position: absolute;
-    margin-left: 25%;
+    margin-left: 5%;
+    margin-top: 5%;
     font-size: x-large;
     color: #fff;
 }
@@ -497,13 +498,12 @@ width: 50%;
 
 .box-contact{
   box-shadow: 0 20px 40px rgba(0,0,0,.2);
-  width: 45%;
+  width: 65%;
   padding: 3%;
   margin: 5%;
   text-align: center;
   border: 2px #ffe75e;
 
- 
 }
 
 .box-contact p {
@@ -696,12 +696,13 @@ section {
     display: flex;
     align-items: end;
     justify-content: right;
-    width: 100%;
+    width: 85%;
   }
   .name_brand p{
-    margin-top: 5%;
+    margin-top: 8%;
     color: #ffe75e;
-    text-decoration: none;
+    margin-left: 5%;
+   
   }
   .title{
     background-color: #3b3b3f;
@@ -743,16 +744,20 @@ section {
     border-radius: 5px;
   }
   .bird {
-    width: 15%;
+    width: 18%;
     display: flex;
-    margin: 1% 6% 0 2%;
+    margin: 1% 0% 0 5%;
   }  
 
   .nav ul {
-    margin: 0;
-    width: 0;
+    padding-left: 0;
+    width: 100%;
+    display: none;
   }
-  
+  .nav ul li a {
+    color: #ffe75e;
+    font-size: smaller;
+  }
   .nav{
     background-color: #3b3b3f;
     text-align: end;
@@ -784,8 +789,7 @@ section {
  }
 
   .nav ul li {
-    padding: 2%;
-    display: none;
+    display: inline;
   }
   .snip1585 img {
     vertical-align: top;
@@ -883,10 +887,7 @@ section {
       border-radius: 5px;
       font-size: larger;
   }
-  .mepic {
-      width: 50%;
-      display: none;
-  }
+ 
     .contact h2{
     font-size: medium;
     }
@@ -902,6 +903,7 @@ section {
       color: rgb(208, 208, 208);
       font-weight: 400;
       font-size: small;
+      margin-top: 15%;
     }
     .initialName p {
       color: #ffe75e;
@@ -930,8 +932,7 @@ section {
 
     .box-contact {
       box-shadow: 0 20px 40px rgba(0,0,0,.2);
-      width: 40%;
-      place-self: center;
+      width: 70%;
       padding: 5%;
       margin: 5%;
       text-align: -webkit-match-parent;
@@ -939,25 +940,53 @@ section {
     }
 
     .find-MeHere {
+        display: flex;
+        position: absolute;
+        margin-left: 6%;
+        margin-top: 8%;
+        font-size: large;
+    }
+
+    .mepic {
+      width: 45vw;
+      align-self: flex-end;
+      height: 51vh;
       display: flex;
-      position: absolute;
-      margin-left: 10%;
-      font-size: large;
-    
     }
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 701px) {
 
-  .nav {
-    background-color: #3b3b3f;
-    text-align: end;
-    font-family: 'Roboto', sans-serif;
-    opacity: 0.9;
-    position: fixed;
-    z-index: 999;
-    width: 100%;
-    font-size: small;
+  .bird {
+    width: 17%;
+    display: inline-block;
+    margin: 0 2% 0 2%;
+  }
+  .name_brand {
+    float: left;
+    display: flex;
+    align-items: end;
+    justify-content: right;
+    width: 44%;
+  }
+  .name_brand p {
+    margin-top: 3%;
+    color: #ffe75e;
+    text-decoration: none;
+    padding-left: 0;
+    width: 60%;
+  }
+    .nav {
+      background-color: #3b3b3f;
+      text-align: end;
+      font-family: 'Roboto', sans-serif;
+      opacity: 0.9;
+      position: fixed;
+      z-index: 999;
+      width: 100%;
+      padding-bottom: 1%;
+      padding-top: 1%;
+      font-size: medium;
   }
   .initialName {
     float: left;
@@ -974,7 +1003,7 @@ section {
   }
   .nav ul {
     margin: 0;
-    width: 75%;
+    width: 100%;
   } 
 
   .nav ul li 
@@ -1090,10 +1119,11 @@ section {
   }
 
  .find-MeHere {
-  display: flex;
-  position: absolute;
-  margin-left: 8%;
-  font-size: x-large;
+   display: flex;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 13%;
+    font-size: x-large;
 }
 
 .box-contact {
