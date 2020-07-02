@@ -86,13 +86,13 @@ body,html
   justify-content: center;
   width: 64%;
   left: 50%;
-  margin-left: -40%;
+  margin: 1% 0% 5% -30%;
   font-size: xx-large;
+  font-weight: 500;
+  color: #fff;
 }
 
-.aim {
-color: #D0D0D0;
-}
+
 
 .word {
   position: absolute;
@@ -136,8 +136,6 @@ color: #D0D0D0;
   color: #16a085;
 }
 
-
-
 .projectPictures_container{
   border: solid 2px #ffe75e;
   border-radius: 5%;
@@ -147,7 +145,6 @@ color: #D0D0D0;
   padding: 5%;
   justify-content: space-evenly;
 }
-
 
 .projectPictures > img {
   width: 25%;
@@ -264,8 +261,27 @@ color: #D0D0D0;
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
 }
+
 /*  End container initial screen */
 
+/*  animation letters */
+.container-lettersAnimation{
+  height: 20%;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.text-Animation{
+  font-weight: 100;
+  font-size: 28px;
+  color: #ffe75e;
+}
+.dud{
+  color: #757575;
+}
+
+/* end of animation letters */
 
 /* Skills place */
 .icons{
