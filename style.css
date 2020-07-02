@@ -466,9 +466,10 @@ width: 50%;
 
 .findMe{
   display: flex;
-    border: solid 2px #ffe75e;
-    border-radius: 5%;
-    margin: 5%;
+  border: solid 2px #ffe75e;
+  border-radius: 5%;
+  margin: 5%;
+  margin-top: 2%;
 }
 
 .labIcon{
