@@ -52,3 +52,16 @@ function splitLetters(word) {
 
 changeWord();
 setInterval(changeWord, 4000);
+
+
+//changed scrolling
+
+$("a[href^='#']").click(function(event) {
+  event.preventDefault();
+	
+  var posicion = $($(this).attr("href")).offset().top;
+
+  $("body, html").animate({
+    scrollTop: posicion
+  });
+});

@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link  rel="icon"   href="images/grulla.png" type="image/png" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <title>Camila Front-end </title>
 </head>
 <body> 
@@ -25,8 +26,7 @@
 
 
 		<div id="inicio">
-            <figure class="snip1585">
-				
+            <figure class="snip1585">				
 					<img src="./images/portPic.jfif"     alt="background Image"/>
 				
                     <figcaption>
@@ -38,12 +38,11 @@
 
 
 	
-	<div id="aboutMe" class="about-me">	 
+	<div id="aboutMe" data-aos="fade-right" class="about-me">
+		<h2 class="title"> SOBRE MI /> </h2>	 
    		<section>
-			<h2 class="title"> SOBRE MI /> </h2>
-			<div class="class="profilePlace">
-			<img  class="img-profile" src="./images/cami.jpg" alt="sample47" />
-				<div class="text_container">
+			
+			<div class="text_container">
 					<p class="aim"> Yo soy ...</p>
 					<p>	
 						<span class="word belize"> Front-end </span>	
@@ -54,16 +53,24 @@
 					
 					</p>
 				</div>
-				<div class="the_placeText">
-					<p>  Me apasiona adquirir nuevos aprendizajes, la tecnología y asumir nuevos desafíos. </p>
-						<p class="the_text">Me caracterizo como una persona autodidacta y perseverante,por lo cual no me rindo fácilmente ante las dificultades.
-						 Busco proactivamente seguir cultivando mis conocimientos y experiencias en el área. </p>
+			<figure class="snip1376">
+				<img src="./images/cami.jpeg" alt="sample17" />
+				<figcaption>
+					<div class="the_placeText">
+						<p>  Me apasiona adquirir nuevos aprendizajes, la tecnología y asumir nuevos desafíos. </p>
+							<p class="the_text">Me caracterizo como una persona autodidacta y perseverante,por lo cual no me rindo fácilmente ante las dificultades. </p>
+					</div>
+				  
+				</figcaption>
+			  </figure>
 
-				</div>		
+			
+				
+						
 		</section>
 	</div>
 
-	
+
 	   <section id="work" class="myWorks">
 			<h2 class="title"> PROYECTOS/> </h2>
 			
@@ -91,10 +98,11 @@
 				</div>
 				
 		</section>   
+	
 
 		<div id="skills" class="skills">
 	    
-			<h2 class="title"> HABILIDADES TÉCNICAS />  </h2>  
+			<h2 class="title"> HABILIDADES TÉCNICAS /></h2>  
 			<div class="skillContent"> 
 			
 				<div  class="icons">
@@ -118,25 +126,31 @@
 				
 				<div id="contact">
 					<section class="contact">
-						<h2 class="title"> CONTACTO />  </h2>
+						<h2 class="title"> CONTÁCTAME />  </h2>
 
 						<div class="findMe">
-							<img class="mepic" src="./images/mepic.png"/>
+							<img class="mepic" src="./images/mepic.png"/>	
+							<h4 class="find-MeHere"> Puedes encontrarme en: </h4> 
 
 						<div class="findIcon">	
-								<h4> Puedes encontrarme en: </h4> 
+							
+							<div class="box-contact">
+								<a target="_blank"   href="https://www.canva.com/design/DAD4s2GpqrU/OQDjLnvN8qJtvIBNkGoSVA/view?utm_content=DAD4s2GpqrU&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"><img class="contactIcon" src="./images/cv.svg"> </img></a> <p>CV</p>
+							</div>		
 
-								<a target="_blank"   href="https://www.canva.com/design/DAD4s2GpqrU/OQDjLnvN8qJtvIBNkGoSVA/view?utm_content=DAD4s2GpqrU&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"><img class="contactIcon" src="./images/cv.png"> </img></a> 
-		
+							<div class="box-contact">
+								<a target="_blank"  href="https://github.com/Camirojasserantoni?tab=repositories"> <img class="contactIcon" src="./images/github-cami.svg"></img></a>
 								
-								<a target="_blank" href="https://www.linkedin.com/in/camilarojasserantoni/"> <img class="contactIcon" src="./images/inIcon.png"></img></a>
+								<a target="_blank" href="https://www.linkedin.com/in/camilarojasserantoni/"> <img class="contactIcon" src="./images/linkedin-cami.svg"></img></a>
+								<p> REDES SOCIALES</p>
+							</div>
+								
+								<div class="box-contact"><a target="_blank"> <img class="contactIcon" src="./images/loc.png"></img></a><p> Location: Santiago, Chile </p>
 
-								<a target="_blank"  href="https://github.com/Camirojasserantoni?tab=repositories"> <img class="contactIcon" src="./images/ghub.svg"></img></a>
 
-								<a target="_blank"  href="https://app.talento.laboratoria.la/private-profile/2tDgX1hbhvT03KXVp3hDkrzAgGK2"><img class="labIcon" src="./images/labIcon.png"> </a>
-
-								<p>   camilarojasserantoni@gmail.com </p>
-								<p> Location: Santiago, Chile </p>
+								</div>	
+								
+								
 
 							</div>	
 							
