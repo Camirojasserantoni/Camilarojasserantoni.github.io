@@ -950,7 +950,7 @@ section {
     .mepic {
       width: 45vw;
       align-self: flex-end;
-      height: 51vh;
+      height: 40vh;
       display: flex;
     }
 }
