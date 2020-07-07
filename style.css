@@ -120,30 +120,15 @@ body,html
   transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.wisteria {
-  color: #77a4be;
-}
-
-.belize {
-  color: #f5d754;
-}
-
-.pomegranate {
-  color: #c0392b;
-}
-
-.green {
-  color: #16a085;
-}
 
 .projectPictures_container{
+  
   border: solid 2px #ffe75e;
-  border-radius: 5%;
-  display: flex;
+  border-radius: 5px;
+  display: flow-root;
   width: 70%;
   margin: 1% 5% 5% 10%;
   padding: 5%;
-  justify-content: space-evenly;
 }
 
 .projectPictures > img {
@@ -286,18 +271,18 @@ body,html
 /* Skills place */
 .icons{
   display: flex;
-  background: #3b3b3f;
-  border-radius: 5%;
-  margin-left: 4%;
-  padding-top: 1%;
-  margin-top: 10%;
-  text-align: center;
-  flex-direction: unset;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 70%;
-  height: 55vh;
-  border: solid 2px #ffe75e;
+    background: #3b3b3f;
+    border-radius: 5px;
+    margin-left: 4%;
+    padding-top: 1%;
+    margin-top: 10%;
+    text-align: center;
+    flex-direction: unset;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+    height: 55vh;
+    border: solid 2px #ffe75e;
 }
 
 .icon{
@@ -547,14 +532,15 @@ figure.snip1311 {
   float: left;
   overflow: hidden;
   max-height: 30%;
-  width: 30%;
+  width: 33%;
   color: #ffffff;
   text-align: left;
   background-color: #07090c;
   font-size: smaller;
   -webkit-perspective: 50em;
   perspective: 50em;
-  border-radius: 10%;
+  border-radius: 36px;
+  margin: 5% 5% 6% 11%;
 }
 figure.snip1311 * {
 -webkit-box-sizing: border-box;
@@ -587,9 +573,10 @@ figure.snip1311 p {
 line-height: 1.5em;
 }
 figure.snip1311 h3 {
-margin: 0;
-font-weight: 800;
-text-transform: uppercase;
+  margin: 0;
+  font-weight: 800;
+  font-size: x-large;
+  text-transform: uppercase;
 }
 figure.snip1311 p {
 font-size: 0.8em;
@@ -630,6 +617,11 @@ section {
   display: inline-grid;
   margin-bottom: 2%;
 }
+h4{
+
+  color: #ffe75e;
+}
+
 
 /* Responsive Design */
 
@@ -821,18 +813,18 @@ section {
   }
 
   figure.snip1311 {
-      position: relative;
-      overflow: hidden;
-      width: 50%;
-      margin-left: 25%;
-      margin-right: initial;
-      color: #ffffff;
-      text-align: left;
-      background-color: #07090c;
-      font-size: 16px;
-      -webkit-perspective: 50em;
-      perspective: 50em;
-      border-radius: 10%;
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: initial;
+    color: #ffffff;
+    text-align: left;
+    background-color: #07090c;
+    font-size: 16px;
+    -webkit-perspective: 50em;
+    perspective: 50em;
+    border-radius: 10%;
     }
     .skillContent {
       display: flex;
@@ -950,7 +942,7 @@ section {
     .mepic {
       width: 45vw;
       align-self: flex-end;
-      height: 40vh;
+      height: 51vh;
       display: flex;
     }
 }
