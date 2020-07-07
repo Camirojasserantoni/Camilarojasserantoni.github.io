@@ -951,11 +951,10 @@ h4{
     }
 
     .mepic {
-      width: 39vw;
+      width: 35vw;
       align-self: center;
-      height: 41vh;
-      margin: 5px;
-      display: flex;
+      height: 35vh;
+      margin-right: -15px;
     }
 }
 
