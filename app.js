@@ -54,14 +54,12 @@ class TextScramble {
 }
 
 const phrases = [
-  'Yo soy mujer ', 
-  'Front-end Developer 👩🏻‍💻',
-  'Psicóloga', 
-  'Curiosa',
-  'Me gusta...',
+  'Soy mujer', 
+  'Front-end developer 👩🏻‍💻',
+  'y...Psicóloga', 
+  'Me gusta:',
   'aprender cosas nuevas 📚',
   'ver películas 📽️',
-  'andar en bicicleta 🚵🏻‍♀️',
   ' y los gatos 😺',
   
 ]

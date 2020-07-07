@@ -353,7 +353,7 @@ width: 50%;
 
 /* Snip New */ 
  .snip1376 {
-  border-radius: 5%;
+  border-radius: 5px;
   position: relative;
   place-self: center;
   overflow: hidden;
@@ -471,7 +471,7 @@ width: 50%;
 .findMe{
   display: flex;
   border: solid 2px #ffe75e;
-  border-radius: 5%;
+  border-radius: 5px;
   margin: 5%;
   margin-top: 2%;
 }
@@ -627,6 +627,21 @@ h4{
 
 @media only screen and (max-width: 700px) and (min-width: 320px) {
 
+  .snip1376 {
+    border-radius: 5px;
+    position: relative;
+    place-self: center;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 230px;
+    max-width: 315px;
+    width: 100%;
+    color: #141414;
+    text-align: left;
+    line-height: 1em;
+    font-size: 16px;
+  }
+    
   .snip1585 a {
     position: absolute;
     top: 0;
@@ -815,8 +830,8 @@ h4{
   figure.snip1311 {
     position: relative;
     overflow: hidden;
-    width: 80%;
-    margin-left: 10%;
+    width: 70%;
+    margin-left: 15%;
     margin-right: initial;
     color: #ffffff;
     text-align: left;
@@ -824,14 +839,13 @@ h4{
     font-size: 16px;
     -webkit-perspective: 50em;
     perspective: 50em;
-    border-radius: 10%;
+    border-radius: 45px;
     }
     .skillContent {
       display: flex;
     width: 100%;
     height: 70vh;
-    padding-bottom: 5%;
-    padding: -9%;
+    padding-bottom: 7%;
     }
     .skills{
     background-color: #3b3b3f;
@@ -845,14 +859,11 @@ h4{
 
     }
     .icons{
-      display: list-item;
       margin-right: 5%;
       background: #3b3b3f;
-      border-radius: 5%;
+      border-radius: 5px;
       padding-top: 5%;
-      text-align: center;
-      flex-wrap: wrap;
-      justify-content: center;
+      display: inline-table;
       width: 100%;
       height: 65vh;
       border: solid 2px #ffe75e;
@@ -940,9 +951,10 @@ h4{
     }
 
     .mepic {
-      width: 45vw;
-      align-self: flex-end;
-      height: 51vh;
+      width: 39vw;
+      align-self: center;
+      height: 41vh;
+      margin: 5px;
       display: flex;
     }
 }
@@ -950,9 +962,9 @@ h4{
 @media only screen and (max-width: 1200px) and (min-width: 701px) {
 
   .bird {
-    width: 17%;
-    display: inline-block;
-    margin: 0 2% 0 2%;
+    width: 25%;
+    display: flex;
+    margin: 0 0 0 10%;
   }
   .name_brand {
     float: left;
@@ -962,11 +974,11 @@ h4{
     width: 44%;
   }
   .name_brand p {
-    margin-top: 3%;
+    margin-top: 5%;
     color: #ffe75e;
     text-decoration: none;
     padding-left: 0;
-    width: 60%;
+    width: 45%;
   }
     .nav {
       background-color: #3b3b3f;
@@ -976,7 +988,6 @@ h4{
       position: fixed;
       z-index: 999;
       width: 100%;
-      padding-bottom: 1%;
       padding-top: 1%;
       font-size: medium;
   }
@@ -995,12 +1006,13 @@ h4{
   }
   .nav ul {
     margin: 0;
-    width: 100%;
+    padding: 0;
+    width: 73%;
   } 
 
   .nav ul li 
   {
-    padding: 2%;
+    padding-right: 2%;
   }
   
   .nav ul li a {
@@ -1050,13 +1062,28 @@ h4{
 
   .projectPictures_container{
     border: solid 2px #ffe75e;
-    border-radius: 5%;
-    display: flex;
+    border-radius: 5px;
+    display: flow-root;
     width: 70%;
-    margin: 5% 5% 5% 10%;
+    margin: 1% 5% 5% 10%;
     padding: 5%;
-    justify-content: space-evenly;
   } 
+  figure.snip1311 {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    max-height: 30%;
+    width: 33%;
+    color: #ffffff;
+    text-align: left;
+    background-color: #07090c;
+    font-size: smaller;
+    -webkit-perspective: 50em;
+    perspective: 50em;
+    border-radius: 36px;
+    margin: 5% 5% 6% 11%;
+  }
+
  figure.snip1311 img {
     max-width: 100%;
     -webkit-transition-delay: 0.2s;
@@ -1065,15 +1092,14 @@ h4{
   }
   figure.snip1311 {
     position: relative;
-    overflow: hidden;
-    width: 60%;
+    overflow: visible;
+    width: 34%;
     color: #ffffff;
     text-align: left;
     background-color: #07090c;
-    font-size: 12px;
-    -webkit-perspective: 50em;
+    font-size: 11px;
     perspective: 50em;
-    border-radius: 10%;
+    border-radius: 30px;
   }
   
   .snip1522 .profile-image img {
